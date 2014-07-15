@@ -23,7 +23,7 @@
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -36,55 +36,12 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav pull-right">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="active"><a href="samples.html">Samples</a></li>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="samples.php">Samples</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="credits.html">Credits</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
-
-    <section>
-        <div class="jumbotron">
-            <div class="container"><h2><i class="fa fa-camera"></i> Youtube Video</h2></div>
-        </div>
-        <div class="container">
-            <div class="well text-center">
-                 <iframe width="640" height="360" src="//www.youtube.com/embed/xhzO9MiNafY" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <section>
-        <div class="jumbotron">
-            <div class="container"><h2><i class="fa fa-camera"></i> Audio</h2></div>
-        </div>
-        <div class="container">
-            <div class="well text-center">
-                <audio controls>
-                  <source src="http://www.stephaniequinn.com/Music/Allegro%20from%20Duet%20in%20C%20Major.mp3" type="audio/mpeg">
-                  Your browser does not support this audio format.
-                </audio> 
-                
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-  </body>
-</html>
